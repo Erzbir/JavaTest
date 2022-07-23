@@ -17,7 +17,7 @@ public class Test_63 {
         System.out.println(MyInteger.toInteger("123"));
         System.out.println(MyInteger.BinaryToDecimal(100));
         System.out.println(MyInteger.DecimalToBinary(2));
-        System.out.println(MyInteger.decimalToHexadecimal(16));
+        System.out.println(MyInteger.decimalToHexadecimal(16161));
     }
 }
 
@@ -128,19 +128,15 @@ class MyInteger {
     }
 
     public static String decimalToHexadecimal(int dec) {
-        final char[] HEX_MAP = {'0', '1', '2', '3', '4', '5', '6', '7', '8',
-                '9', 'A', 'B', 'C', 'D', 'E', 'F'};
-        final int SizeOfIntInHalfBytes = 8;
-        final int NumberOfBitsInAHalfByte = 4;
-        final int HalfByte = 0x0F;
-
-        StringBuilder hexBuilder = new StringBuilder(SizeOfIntInHalfBytes);
-        hexBuilder.setLength(SizeOfIntInHalfBytes);
-        for (int i = SizeOfIntInHalfBytes - 1; i >= 0; --i) {
-            int j = dec & HalfByte;
-            hexBuilder.setCharAt(i, HEX_MAP[j]);
-            dec >>= NumberOfBitsInAHalfByte;
+        StringBuilder hex = new StringBuilder();
+        char temp;
+        int hex_value;
+        while (dec != 0) {
+            hex_value = dec % 16;
+            temp = hex_value <= 9 && hex_value >= 0 ? (char) (hex_value + '0') : (char) (hex_value - 10 + 'A');
+            hex.insert(0, temp);
+            dec /= 16;
         }
-        return hexBuilder.toString();
+        return hex.toString();
     }
 }

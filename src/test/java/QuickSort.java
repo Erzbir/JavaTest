@@ -1,29 +1,53 @@
-package practise;
+import org.jetbrains.annotations.NotNull;
 
-public class Sort {
+class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 7, 6, 4, 1, 0, 2, 9, 10, 8};
+        int[] arr = {60, 55, 48, 37, 10, 90, 84, 36};
         quickSort(arr, 0, arr.length - 1);
         for (int i : arr) {
             System.out.println(i);
         }
     }
 
-    private static void swap(int[] arr, int a, int b) {
-        arr[a] = arr[a] ^ arr[b];
-        arr[b] = arr[a] ^ arr[b];
-        arr[a] = arr[a] ^ arr[b];
+
+    public static void swap(int @NotNull [] arr, int i, int j) {
+        arr[i] = arr[i] ^ arr[j];
+        arr[j] = arr[i] ^ arr[j];
+        arr[i] = arr[i] ^ arr[j];
+
     }
 
-    public static void insertSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j > 0; j--) {
-                if (arr[j] < arr[j - 1]) {
-                    swap(arr, j, j - 1);
-                }
+    public static void quickSort(int @NotNull [] arr, int left, int right) {
+        int i = left;
+        int j = right;
+        int key = arr[left];
+
+        while (i < j) {
+            while (i < j && arr[j] <= key) {    // 降序;   arr[j] >= key 为升序
+                j--;
+            }
+            while (i < j && arr[i] >= key) {
+                i++;
+            }
+            if (i < j) {
+                swap(arr, i, j);
             }
         }
+
+        //一次快排结束
+        //把与枢轴key相同的元素移到枢轴最终位置周围
+        arr[left] = arr[i];
+        arr[i] = key;
+        if (i > left) {
+            quickSort(arr, left, i - 1);
+        }
+        if (j < right) {
+            quickSort(arr, j + 1, right);
+        }
     }
+
+
+    // 之后的代码都为优化快速排序
 
     public static void insertSort(int[] arr, int left, int right) {
         for (int i = left; i < right; i++) {
@@ -35,75 +59,9 @@ public class Sort {
         }
     }
 
-    public static void selectSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            int min = i;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[min]) {
-                    // j对应的下标才是最下值
-                    min = j;
-                }
-            }
-            if (min != i) {
-                swap(arr, i, min);
-            }
-        }
-    }
-
-    public static void selectSort_2(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[j - 1]) {
-                    swap(arr, i, j);
-                }
-            }
-        }
-    }
-
-
-    public static void bubbleSort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            for (int j = 0; j < arr.length - 1 - i; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    swap(arr, j, j + 1);
-                }
-            }
-        }
-    }
-
-    private static void quickSort(int[] arr, int left, int right) {
-        int i = left, j = right;
-        int key = arr[left];
-        if (right - left + 1 < 10) {
-            insertSort(arr, left, right);
-            return;
-        }
-        while (i < j) {
-            while (i < j && key <= arr[j]) {
-                j--;
-            }
-            while (i < j && key >= arr[i]) {
-                i++;
-            }
-            if (i < j) {
-                swap(arr, i, j);
-            }
-        }
-        arr[left] = arr[i];
-        arr[i] = key;
-        if (i > left) {
-            quickSort(arr, left, i - 1);
-        }
-        if (j < right) {
-            quickSort(arr, j + 1, right);
-        }
-
-    }
-
-    private static int SelectPivotMedianOfThree(int[] arr, int low, int high) {
+    private static int SelectPivotMedianOfThree(int @NotNull [] arr, int low, int high) {
         int mid = low + ((high - low) >> 1);//计算数组中间的元素的下标
-
-        //使用三数取中法选择枢轴
+        //三数取中法
         if (arr[mid] > arr[high])//目标: arr[mid] <= arr[high]
         {
             swap(arr, mid, high);
@@ -122,7 +80,7 @@ public class Sort {
         //分割时可以直接使用low位置的元素作为枢轴，而不用改变分割函数了
     }
 
-    private static void QSort(int[] arr, int low, int high) {
+    private static void quickSort_2(int[] arr, int low, int high) {
         int first = low;
         int last = high;
 
@@ -163,8 +121,6 @@ public class Sort {
         }
         arr[low] = key;
 
-        //一次快排结束
-        //把与枢轴key相同的元素移到枢轴最终位置周围
         int i = low - 1;
         int j = first;
         while (j < left && arr[i] != key) {
@@ -179,8 +135,9 @@ public class Sort {
             i++;
             j--;
         }
-        QSort(arr, first, low - 1 - leftLen);
-        QSort(arr, low + 1 + rightLen, last);
+        quickSort_2(arr, first, low - 1 - leftLen);
+        quickSort_2(arr, low + 1 + rightLen, last);
     }
+
 
 }

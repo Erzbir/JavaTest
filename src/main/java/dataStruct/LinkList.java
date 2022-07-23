@@ -72,13 +72,13 @@ public class LinkList {
 
     @Override
     public String toString() {
-        String result = "";
+        StringBuilder result = new StringBuilder();
         Node temp = this.head;
         while (temp != null) {
-            result +=  temp.data.toString() + " ";
+            result.append(temp.data.toString()).append(" ");
             temp = temp.next;
         }
-        return result;
+        return result.toString();
     }
 
 
