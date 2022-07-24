@@ -1,7 +1,7 @@
 package dataStruct;
 
 public class LinkList {
-    Node head = null;
+    private Node head = null;
 
     public static void main(String[] args) {
         LinkList linkList = new LinkList();
@@ -12,7 +12,7 @@ public class LinkList {
         linkList.delete(1);
         System.out.println("删除后的链表元素:" + linkList);
     }
-    static class Node {
+    private class Node {
         Object data = null;
         Node next = null;
 
