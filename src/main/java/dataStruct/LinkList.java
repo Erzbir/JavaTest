@@ -12,7 +12,7 @@ public class LinkList {
         linkList.delete(1);
         System.out.println("删除后的链表元素:" + linkList);
     }
-    private class Node {
+    private static class Node {
         Object data = null;
         Node next = null;
 
