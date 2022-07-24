@@ -14,9 +14,9 @@ public class Stack {
         System.out.println("出栈元素:" + stack_1.pop());
         stack_1.clear();
     }
-    public int[] data;
-    public int top;
-    public int capacity;
+    private int[] data;
+    private int top;
+    private int capacity;
 
     public Stack(int capacity) {
         if (capacity != 0) {

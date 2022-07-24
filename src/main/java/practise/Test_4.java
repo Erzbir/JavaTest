@@ -14,14 +14,11 @@ public class Test_4 {
 
     public static boolean isPrimeNumber(int num) {
         boolean flag = true;
-        if (num < 0 || num == 1) {
+        if (num < 2) {
             return false;
-        } else if (num == 2) {
-            return true;
-        } else if (num > 2) {
-            for (int i = 2; i <= num / 2 - num % 2; i++) {
-                flag = num % i != 0;
-            }
+        }
+        for (int i = 2; i <= num / 2 - num % 2; i++) {
+            flag = num % i != 0;
         }
         return flag;
     }
