@@ -5,21 +5,21 @@ import java.util.Scanner;
 public class Test_62 {
     static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        User user = new User();
+        UserTest userTest = new UserTest();
         byte select;
         while (true) {
             Menu();
             System.out.print("输入你的选项:");
             select = scan.nextByte();
             if (select == 1) {
-                if (signUp(user)) {
+                if (signUp(userTest)) {
                     System.out.println("\t\t\t注册成功");
                 } else {
                     System.out.println("\t\t\t注册失败");
                 }
             }
             else if (select == 2) {
-                if(signIn(user)) {
+                if(signIn(userTest)) {
                     System.out.println("\t\t\t登录成功");
                 }
                 else {
@@ -33,11 +33,11 @@ public class Test_62 {
         scan.close();
     }
 
-    public static boolean signUp(User user) {
+    public static boolean signUp(UserTest userTest) {
         scan.nextLine();
         System.out.print("输入用户名:");
         String userName = scan.nextLine();
-        if (!user.isCanRegister(userName)) {
+        if (!userTest.isCanRegister(userName)) {
             System.out.println("\t\t\t已存在该账户");
             return false;
         }
@@ -45,27 +45,27 @@ public class Test_62 {
         String tempPassword = scan.nextLine();
         System.out.print("确认密码:");
         String secondPassword = scan.nextLine();
-        if (!user.comparePassword(tempPassword, secondPassword)) {
+        if (!userTest.comparePassword(tempPassword, secondPassword)) {
             System.out.println("\t\t\t两次密码输入不同");
             return false;
         }
-        user.register(userName, tempPassword);
+        userTest.register(userName, tempPassword);
         return true;
     }
 
-    public static boolean signIn(User user) {
+    public static boolean signIn(UserTest userTest) {
         int i;
         Scanner scan = new Scanner(System.in);
         System.out.print("输入用户名:");
         String userName = scan.nextLine();
-        if (user.isCanRegister(userName)) {
+        if (userTest.isCanRegister(userName)) {
             System.out.println("\t\t\t不存在该账户");
             return false;
         }
         System.out.print("输入密码:");
         String password = scan.nextLine();
-        for (i = 0; !user.getUsers()[i].getUserName().equals(userName); i++) ;
-        if (!user.getUsers()[i].getPassword().equals(password)) {
+        for (i = 0; !userTest.getUsers()[i].getUserName().equals(userName); i++) ;
+        if (!userTest.getUsers()[i].getPassword().equals(password)) {
             System.out.println("\t\t\t密码错误");
             return false;
         }
@@ -81,7 +81,7 @@ public class Test_62 {
 
 }
 
-class User {
+class UserTest {
 
     private Admin[] users = new Admin[100];
     private static int count = 0;

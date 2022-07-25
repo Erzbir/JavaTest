@@ -2,7 +2,7 @@ import org.jetbrains.annotations.NotNull;
 
 class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {60, 55, 48, 37, 10, 90, 84, 36};
+        int[] arr = {3, 2, 3};
         quickSort(arr, 0, arr.length - 1);
         for (int i : arr) {
             System.out.println(i);
