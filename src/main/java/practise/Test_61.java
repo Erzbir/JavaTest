@@ -17,21 +17,9 @@ public class Test_61 {
 }
 
 class Stack {
-    public static void main(String[] args) {
-        Stack stack_1 = new Stack(5);
-        stack_1.push(1);
-        stack_1.push(2);
-        System.out.println("栈顶元素:" + stack_1.peek());
-        System.out.println("是否为空:" + stack_1.isEmpty());
-        System.out.println("栈的大小:" + stack_1.size());
-        System.out.println("栈的信息:" + stack_1);
-        System.out.println("出栈元素:" + stack_1.pop());
-        stack_1.clear();
-    }
     public int[] data;
     public int top;
     public int capacity;
-
     public Stack(int capacity) {
         if (capacity != 0) {
             this.top = 0;
@@ -42,6 +30,18 @@ class Stack {
 
     public Stack() {
 
+    }
+
+    public static void main(String[] args) {
+        Stack stack_1 = new Stack(5);
+        stack_1.push(1);
+        stack_1.push(2);
+        System.out.println("栈顶元素:" + stack_1.peek());
+        System.out.println("是否为空:" + stack_1.isEmpty());
+        System.out.println("栈的大小:" + stack_1.size());
+        System.out.println("栈的信息:" + stack_1);
+        System.out.println("出栈元素:" + stack_1.pop());
+        stack_1.clear();
     }
 
     public void push(int e) {

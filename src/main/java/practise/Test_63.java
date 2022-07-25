@@ -32,47 +32,6 @@ class MyInteger {
         this.value = num;
     }
 
-    @Override
-    public String toString() {
-        return String.valueOf(this.value);
-    }
-
-    public void setValue(int num) {
-        this.value = num;
-    }
-
-    public int getValue() {
-        return this.value;
-    }
-
-    public boolean isEven() {
-        return this.value % 2 == 0;
-    }
-
-    public boolean isOdd() {
-        return !isEven();
-    }
-
-    public boolean isPrime() {
-        if (this.value < 2) {
-            return false;
-        }
-        for (int i = 2; i < this.value / 2 - this.value % 2; i++) {
-            if (this.value % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    public boolean equals(int num) {
-        return this.value == num;
-    }
-
-    public boolean equals(MyInteger integer) {
-        return this.value == integer.value;
-    }
-
     public static int toInteger(char[] s) {
         if (s == null || s.length < Character.MIN_RADIX || s.length > Character.MAX_RADIX) {
             throw new NumberFormatException("超出范围");
@@ -138,5 +97,46 @@ class MyInteger {
             dec /= 16;
         }
         return hex.toString();
+    }
+
+    @Override
+    public String toString() {
+        return String.valueOf(this.value);
+    }
+
+    public int getValue() {
+        return this.value;
+    }
+
+    public void setValue(int num) {
+        this.value = num;
+    }
+
+    public boolean isEven() {
+        return this.value % 2 == 0;
+    }
+
+    public boolean isOdd() {
+        return !isEven();
+    }
+
+    public boolean isPrime() {
+        if (this.value < 2) {
+            return false;
+        }
+        for (int i = 2; i < this.value / 2 - this.value % 2; i++) {
+            if (this.value % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean equals(int num) {
+        return this.value == num;
+    }
+
+    public boolean equals(MyInteger integer) {
+        return this.value == integer.value;
     }
 }

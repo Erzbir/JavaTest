@@ -29,6 +29,22 @@ class MyString {
         this.value = s;
     }
 
+    public static MyString valueOf(double num) {
+        int temp = (int) num;
+        String s = "" + temp;
+        char[] s_2 = new char[s.length()];
+        int i = s.length() - 1;
+        while (temp > 0) {
+            s_2[i--] = (char) (temp % 10 + '0');
+            temp /= 10;
+        }
+        return new MyString(s_2);
+    }
+
+    public static MyString valueOf(char[] s) {
+        return new MyString(s);
+    }
+
     public void setValue(char[] s) {
         this.value = s;
     }
@@ -46,7 +62,6 @@ class MyString {
         return String.valueOf(this.value);
     }
 
-
     public int length() {
         return this.value.length;
     }
@@ -63,22 +78,6 @@ class MyString {
         return true;
     }
 
-    public static MyString valueOf(double num) {
-        int temp = (int) num;
-        String s = "" + temp;
-        char[] s_2 = new char[s.length()];
-        int i = s.length() - 1;
-        while (temp > 0) {
-            s_2[i--] = (char) (temp % 10 + '0');
-            temp /= 10;
-        }
-        return new MyString(s_2);
-    }
-
-    public static MyString valueOf(char[] s) {
-        return new MyString(s);
-    }
-
     public char charAt(int index) {
         if (index > this.value.length) {
             throw new ArrayIndexOutOfBoundsException("下标越界");
@@ -92,8 +91,7 @@ class MyString {
         for (int i = 0; i < this.length(); i++) {
             if (this.value[i] >= 90 && this.value[i] <= 112) {
                 newStr[i] = (char) (this.value[i] - 32);
-            }
-            else {
+            } else {
                 newStr[i] = this.value[i];
             }
         }
@@ -106,8 +104,7 @@ class MyString {
         for (int i = 0; i < this.length(); i++) {
             if (this.value[i] >= 65 && this.value[i] <= 90) {
                 newStr[i] = (char) (this.value[i] + 32);
-            }
-            else {
+            } else {
                 newStr[i] = this.value[i];
             }
         }

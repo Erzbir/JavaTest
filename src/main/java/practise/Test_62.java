@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Test_62 {
     static Scanner scan = new Scanner(System.in);
+
     public static void main(String[] args) {
         UserTest userTest = new UserTest();
         byte select;
@@ -17,16 +18,13 @@ public class Test_62 {
                 } else {
                     System.out.println("\t\t\t注册失败");
                 }
-            }
-            else if (select == 2) {
-                if(signIn(userTest)) {
+            } else if (select == 2) {
+                if (signIn(userTest)) {
                     System.out.println("\t\t\t登录成功");
-                }
-                else {
+                } else {
                     System.out.println("\t\t\t登录失败");
                 }
-            }
-            else {
+            } else {
                 break;
             }
         }
@@ -83,23 +81,8 @@ public class Test_62 {
 
 class UserTest {
 
-    private Admin[] users = new Admin[100];
     private static int count = 0;
-
-
-    static class Admin {
-        private String userName = "0";
-        private String password = "0";
-
-        public String getUserName() {
-            return userName;
-        }
-
-        public String getPassword() {
-            return password;
-        }
-    }
-
+    private Admin[] users = new Admin[100];
 
     private void setUser(String userName, String password) {
         Admin admin = new Admin();
@@ -121,8 +104,6 @@ class UserTest {
         return this.users;
     }
 
-
-
     boolean isCanRegister(String userName) {
         if (count == 0) {
             return true;
@@ -139,7 +120,20 @@ class UserTest {
         return password_1.equals(password_2);
     }
 
-    public void register (String userName, String password) {
+    public void register(String userName, String password) {
         setUser(userName, password);
+    }
+
+    static class Admin {
+        private String userName = "0";
+        private String password = "0";
+
+        public String getUserName() {
+            return userName;
+        }
+
+        public String getPassword() {
+            return password;
+        }
     }
 }

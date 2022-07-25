@@ -1,6 +1,5 @@
 package demo;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Demo37 {
@@ -12,7 +11,7 @@ public class Demo37 {
         for (int i = 0; i < temp3.length; i++) {
             temp3[i] = Integer.parseInt(temp2[i]);
         }
-        double[]arr = count(temp3);
+        double[] arr = count(temp3);
         assert arr != null;
         System.out.println("The number of positives is " + arr[0]);
         System.out.println("The number of negative is " + arr[1]);

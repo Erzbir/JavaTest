@@ -3,6 +3,21 @@ package dataStruct;
 import java.util.Arrays;
 
 public class Stack {
+    private Object[] data;
+    private int top;
+    private int capacity;
+    public Stack(int capacity) {
+        if (capacity != 0) {
+            this.top = 0;
+            this.capacity = capacity;
+            this.data = new Object[capacity];
+        }
+    }
+
+    public Stack() {
+
+    }
+
     public static void main(String[] args) {
         Stack stack_1 = new Stack(5);
         stack_1.push(1);
@@ -17,21 +32,6 @@ public class Stack {
         System.out.println("栈的信息:" + stack_1);
         System.out.println("出栈元素:" + stack_1.pop());
         stack_1.clear();
-    }
-    private Object[] data;
-    private int top;
-    private int capacity;
-
-    public Stack(int capacity) {
-        if (capacity != 0) {
-            this.top = 0;
-            this.capacity = capacity;
-            this.data = new Object[capacity];
-        }
-    }
-
-    public Stack() {
-
     }
 
     public void push(int e) {

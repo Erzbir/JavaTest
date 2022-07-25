@@ -9,8 +9,7 @@ public class Demo35 {
         String str = scan.nextLine();
         if (isPalindrome(str)) {
             System.out.println("是回文字符串");
-        }
-        else {
+        } else {
             System.out.println("不是回文字符串");
         }
     }
@@ -26,7 +25,6 @@ public class Demo35 {
         }
         return true;
     }
-
 
 
 }

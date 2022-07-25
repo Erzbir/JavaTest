@@ -3,6 +3,10 @@ package dataStruct;
 public class LinkList {
     private Node head = null;
 
+    public LinkList() {
+
+    }
+
     public static void main(String[] args) {
         LinkList linkList = new LinkList();
         linkList.insert(1);
@@ -11,23 +15,6 @@ public class LinkList {
         System.out.println("链表当前的元素:" + linkList);
         linkList.delete(1);
         System.out.println("删除后的链表元素:" + linkList);
-    }
-    private static class Node {
-        Object data = null;
-        Node next = null;
-
-        private Node(Object data) {
-            this.data = data;
-        }
-
-        private Node() {
-
-        }
-
-    }
-
-    public LinkList() {
-
     }
 
     public void insert(Object data) {
@@ -79,6 +66,20 @@ public class LinkList {
             temp = temp.next;
         }
         return result.toString();
+    }
+
+    private static class Node {
+        Object data = null;
+        Node next = null;
+
+        private Node(Object data) {
+            this.data = data;
+        }
+
+        private Node() {
+
+        }
+
     }
 
 

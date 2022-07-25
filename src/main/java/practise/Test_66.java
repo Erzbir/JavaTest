@@ -13,8 +13,7 @@ public class Test_66 {
         for (int i = 1; i < arr.length; i++) {
             if (res == arr[i]) {
                 n++;
-            }
-            else {
+            } else {
                 n--;
                 if (n == 0) {
                     res = arr[i];

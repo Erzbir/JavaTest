@@ -14,9 +14,9 @@ public class Demo34 {
         StringBuilder hex = new StringBuilder();
         char temp;
         int hexTemp;
-        while(dec != 0) {
+        while (dec != 0) {
             hexTemp = dec % 16;
-            temp = hexTemp <= 9 && hexTemp >= 0 ? (char)(hexTemp + '0') : (char)(hexTemp - 10 + 'A');
+            temp = hexTemp <= 9 && hexTemp >= 0 ? (char) (hexTemp + '0') : (char) (hexTemp - 10 + 'A');
             hex.insert(0, temp);
             dec >>= 4;
         }

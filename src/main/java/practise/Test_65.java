@@ -3,8 +3,6 @@ package practise;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Arrays;
-
 public class Test_65 {
     public static void main(String[] args) {
         Reply reply = new Reply();
@@ -76,6 +74,15 @@ class Reply {
     private Node head = null;
     private Article article;
 
+    public Reply() {
+
+    }
+
+    public Reply(Node head, Article article) {
+        this.head = head;
+        this.article = article;
+    }
+
     @Setter
     @Getter
     private static class Data {
@@ -97,6 +104,7 @@ class Reply {
             this.content = content;
         }
     }
+
     @Setter
     @Getter
     private static class Node {
@@ -107,17 +115,9 @@ class Reply {
         public Node() {
 
         }
+
         public Node(Data data) {
             this.data = data;
         }
-    }
-
-    public  Reply() {
-
-    }
-
-    public Reply(Node head, Article article) {
-        this.head = head;
-        this.article = article;
     }
 }
