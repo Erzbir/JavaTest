@@ -64,8 +64,6 @@ class Blog implements BlogInter {
             }
 
         }
-        System.out.printf("所有已发布文章:%s\n", AllReleasedArticle());
-        System.out.printf("所有未发布文章:%s\n", AllNoReleaseArticle());
     }
 
     @Override
