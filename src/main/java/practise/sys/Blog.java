@@ -4,8 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Dictionary;
+import java.util.Hashtable;
 import java.util.Scanner;
 
 @Getter
@@ -14,7 +14,8 @@ class Blog implements BlogInter {
 
     private String id;
 
-    private List<Article> articleList = new ArrayList<>(100);
+    private Dictionary<String, Article> articleList = new Hashtable<>(100);
+    private Dictionary<String, Article> tempList = new Hashtable<>(100);
     private Users.User user;
     private Blog.Article article;
 
@@ -37,9 +38,12 @@ class Blog implements BlogInter {
             String temp1 = scan.nextLine();
             if (temp1.equals(":q")) {
                 System.out.println("已退出");
-                return;
+                break;
             }
             if (temp1.equals(":w")) {
+                System.out.print("输入文章名:");
+                String name = scan.next();
+                this.tempList.put(name, this.article);
                 System.out.println("已保存");
                 article.content = String.valueOf(tempContent);
             }
@@ -60,6 +64,8 @@ class Blog implements BlogInter {
             }
 
         }
+        System.out.printf("所有已发布文章:%s\n", AllReleasedArticle());
+        System.out.printf("所有未发布文章:%s\n", AllNoReleaseArticle());
     }
 
     @Override
@@ -67,15 +73,21 @@ class Blog implements BlogInter {
         if (this.article == null) {
             return false;
         }
+        if (this.tempList == null) {
+            return false;
+        }
         Scanner scan = new Scanner(System.in);
-        System.out.print("输入文章标题:");
-        this.article.title = scan.nextLine();
+        System.out.print("输入要发布的文章的标题:");
+        String title = scan.nextLine();
+        this.article = this.tempList.get(title);
         this.article.id = this.id;
         this.article.author = user.getAccount();
         this.article.publishTime = LocalTime.now();
-        articleList.add(this.article);
+        articleList.put(title, this.article);
+        this.article = null;
         return true;
     }
+
 
     @Override
     public boolean viewArticle(String title) {
@@ -85,13 +97,12 @@ class Blog implements BlogInter {
         if (articleList.isEmpty()) {
             return false;
         }
-        int i;
-        Blog.Article article1 = new Blog.Article();
-        for (i = 0; i < articleList.size(); i++) {
-            if (articleList.get(i).title.equals(title)) {
-                article1 = articleList.get(i);
-                break;
-            }
+        if (tempList.isEmpty()) {
+            return false;
+        }
+        Blog.Article article1 = tempList.get(title);
+        if (article1 == null) {
+            return false;
         }
         System.out.printf("作者: %s    发布时间: %s\n内容:\n%s\n", article1.author, article1.publishTime, article1.content);
         return true;

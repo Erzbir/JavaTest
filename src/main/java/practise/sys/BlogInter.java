@@ -7,4 +7,5 @@ public interface BlogInter {
 
     boolean viewArticle(String title);
 
+
 }

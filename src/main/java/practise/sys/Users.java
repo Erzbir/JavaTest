@@ -10,7 +10,7 @@ import java.util.UUID;
 @Getter
 public class Users implements UserInter {
 
-    private HashMap<String, Users.User> userList = new HashMap<>(100);
+    private static HashMap<String, Users.User> userList = new HashMap<>(100);
 
     @Override
     public boolean signUp(String account, String password, String rePassword) {
@@ -72,8 +72,10 @@ public class Users implements UserInter {
         private String account;
         private String password;
 
-        public User() {
+        private Blog blog;
 
+        public User() {
+            blog = new Blog(this);
         }
 
     }

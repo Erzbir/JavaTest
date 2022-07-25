@@ -8,6 +8,8 @@ public class Main {
     static UserInter user;
     static BlogInter blog;
 
+    static Users.User loginUser;
+
     public static void main(String[] args) {
         init();
         Scanner scan = new Scanner(System.in);
@@ -29,8 +31,9 @@ public class Main {
                 String rePassword = scan.next();
                 if (!user.signUp(account, password, rePassword)) {
                     System.out.println("注册失败");
+                } else {
+                    System.out.println("注册成功");
                 }
-                System.out.println("注册成功");
             } else if (n.equals("2")) {
                 System.out.print("输入用户名:");
                 String account = scan.next();
@@ -40,8 +43,8 @@ public class Main {
                     System.out.println("登录失败");
                 } else {
                     flag = true;
-                    blog = new Blog(user.getUser(account));
                     System.out.println("登录成功");
+                    loginUser = user.getUser(account);
                 }
             }
             while (flag) {
@@ -52,22 +55,24 @@ public class Main {
                     flag = false;
                 }
                 if (n.equals("1")) {
-                    blog.writeArticle();
+                    loginUser.getBlog().writeArticle();
                     System.out.println("写入完成");
                 }
                 if (n.equals("2")) {
                     System.out.print("输入文章名:");
                     String title = scan.next();
-                    if (!blog.viewArticle(title)) {
+                    if (!loginUser.getBlog().viewArticle(title)) {
                         System.out.println("查看失败");
+                    } else {
+                        System.out.println("查看成功");
                     }
-                    System.out.println("查看成功");
                 }
                 if (n.equals("3")) {
-                    if (!blog.releaseArticle()) {
+                    if (!loginUser.getBlog().releaseArticle()) {
                         System.out.println("发布失败");
+                    } else {
+                        System.out.println("发布成功");
                     }
-                    System.out.println("发布成功");
                 }
             }
         }
