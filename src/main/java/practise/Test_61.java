@@ -20,6 +20,7 @@ class Stack {
     public int[] data;
     public int top;
     public int capacity;
+
     public Stack(int capacity) {
         if (capacity != 0) {
             this.top = 0;

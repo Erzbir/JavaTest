@@ -6,6 +6,7 @@ public class Stack {
     private Object[] data;
     private int top;
     private int capacity;
+
     public Stack(int capacity) {
         if (capacity != 0) {
             this.top = 0;
