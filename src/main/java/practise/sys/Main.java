@@ -6,7 +6,6 @@ public class Main {
     static MenuInter menu_1;
     static MenuInter menu_2;
     static UserInter user;
-    static BlogInter blog;
 
     static Users.User loginUser;
 
