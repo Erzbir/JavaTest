@@ -68,9 +68,6 @@ class Blog implements BlogInter {
 
     @Override
     public boolean releaseArticle() {
-        if (this.article == null) {
-            return false;
-        }
         if (this.tempList == null) {
             return false;
         }
