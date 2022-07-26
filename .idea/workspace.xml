@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新依赖包">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新依赖包" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +73,7 @@
       <updated>1658854721437</updated>
       <workItem from="1658854722764" duration="86000" />
       <workItem from="1658854811158" duration="101000" />
-      <workItem from="1658854926047" duration="1547000" />
+      <workItem from="1658854926047" duration="1923000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -109,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658855860463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新依赖包">
+      <created>1658856715251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658856715251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
