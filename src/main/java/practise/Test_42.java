@@ -1,12 +1,16 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_42 {
     public static void main(String[] args) {
-        int year = PrintPatten.input.nextInt();
-        int month = PrintPatten.input.nextInt();
-        int day = PrintPatten.input.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int year = scan.nextInt();
+        int month = scan.nextInt();
+        int day = scan.nextInt();
         String[] week = {"周六", "周天", "周二", "周三", "周四", "周五", "周六"};
         System.out.println(week[week(year, month, day)]);
+        scan.close();
     }
 
     private static int week(int year, int month, int day) {

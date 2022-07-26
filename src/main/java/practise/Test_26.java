@@ -1,11 +1,15 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_26 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.print("输入第几个月:");
-        int n = PrintPatten.input.nextInt();
+        int n = scan.nextInt();
         System.out.println(getRabbits(n));
         System.out.println(getRabbits_2(n));
+        scan.close();
     }
 
     private static long getRabbits(int n) {

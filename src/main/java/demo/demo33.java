@@ -10,7 +10,7 @@ public class demo33 {
         int num2 = scan.nextInt();
         scan.close();
         System.out.println(greatestCommonDivisor(num1, num2));
-
+        scan.close();
     }
 
     public static int greatestCommonDivisor(int num1, int num2) {

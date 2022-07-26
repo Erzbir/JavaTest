@@ -17,7 +17,7 @@ public class Demo37 {
         System.out.println("The number of negative is " + arr[1]);
         System.out.println("The number of total is " + arr[2]);
         System.out.println("The number of positives is " + arr[3]);
-
+        scan.close();
     }
 
     public static double[] count(int... num) {

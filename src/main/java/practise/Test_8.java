@@ -1,9 +1,12 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_8 {
     public static void main(String[] args) {
         System.out.print("输入层数:");
-        int floor = PrintPatten.input.nextInt();
+        Scanner scan = new Scanner(System.in);
+        int floor = scan.nextInt();
         printPatten(floor);
     }
 

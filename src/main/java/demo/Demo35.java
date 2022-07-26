@@ -12,6 +12,7 @@ public class Demo35 {
         } else {
             System.out.println("不是回文字符串");
         }
+        scan.close();
     }
 
     public static boolean isPalindrome(String str) {

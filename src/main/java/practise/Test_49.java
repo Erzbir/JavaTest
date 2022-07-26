@@ -14,6 +14,7 @@ public class Test_49 {
         } else {
             System.out.println("不在三角形内");
         }
+        scan.close();
     }
 
     public static boolean isIn(double x, double y) {

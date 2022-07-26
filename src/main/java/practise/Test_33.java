@@ -1,9 +1,12 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_33 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.print("输入层数:");
-        int floor = PrintPatten.input.nextInt();
+        int floor = scan.nextInt();
         int floor_1 = floor >> 1;
         for (int i = 1; i <= floor_1; i++) {
             PrintPatten.printSpace(floor_1, i - 1);
@@ -25,6 +28,6 @@ public class Test_33 {
             PrintPatten.printDiamond(i);
             System.out.println();
         }
-
+        scan.close();
     }
 }

@@ -1,10 +1,14 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_11 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.print("输入层数:");
-        int floor = PrintPatten.input.nextInt();
+        int floor = scan.nextInt();
         printPatten(floor);
+        scan.close();
     }
 
     private static void printPatten(int floor) {

@@ -1,10 +1,13 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_38 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         System.out.print("输入两位数:");
         int a = (int) (Math.random() * 10);
-        int n = PrintPatten.input.nextInt();
+        int n = scan.nextInt();
         String c = String.valueOf(n);
         String d = String.valueOf(a);
         String index1 = String.valueOf(c.charAt(0));

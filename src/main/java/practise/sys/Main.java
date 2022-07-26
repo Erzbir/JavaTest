@@ -19,6 +19,7 @@ public class Main {
             n = menu_1.enterChoice();
             if (n.equals("0")) {
                 System.out.println("已退出");
+                scan.close();
                 return;
             }
             if (n.equals("1")) {

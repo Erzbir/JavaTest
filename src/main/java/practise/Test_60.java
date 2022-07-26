@@ -9,6 +9,7 @@ public class Test_60 {
         int[] arr2 = {1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10};
         System.out.println("不重复的值为:" + SearchNotDuplicate(arr));
         System.out.println("重复的值为:" + SearchDuplicate(arr2));
+        scan.close();
     }
 
     public static int SearchNotDuplicate(int[] arr) {

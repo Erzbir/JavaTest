@@ -1,10 +1,13 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_2 {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         int num;
         System.out.print("输入一个数:");
-        num = PrintPatten.input.nextInt();
+        num = scan.nextInt();
         if ((num & 1) == 0) {
             System.out.println("偶数");
             System.out.print("是3的倍数的数:");
@@ -22,5 +25,6 @@ public class Test_2 {
                 }
             }
         }
+        scan.close();
     }
 }

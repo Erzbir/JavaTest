@@ -1,19 +1,23 @@
 package practise;
 
+import java.util.Scanner;
+
 public class Test_1 {
     public static void main(String[] argv) {
         double a;
         double b;
         double c;
+        Scanner scan = new Scanner(System.in);
         System.out.print("enter the first side: ");
-        a = PrintPatten.input.nextDouble();
+        a = scan.nextDouble();
         System.out.print("enter the second side: ");
-        b = PrintPatten.input.nextDouble();
+        b = scan.nextDouble();
         System.out.print("enter the lase side: ");
-        c = PrintPatten.input.nextDouble();
+        c = scan.nextDouble();
         double p = (a + b + c) / 2;
         double S;
         S = Math.sqrt(p * (p - a) * (p - b) * (p - c));
         System.out.printf("三角形面积: %f", S);
+        scan.close();
     }
 }

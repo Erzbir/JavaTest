@@ -8,6 +8,7 @@ public class Test_59 {
         System.out.print("输入一个数:");
         Object[] arr = countTimes(scan.nextInt());
         System.out.printf("出现 1 的次数为: %s, 转换成二进制数为: %s", arr[1].toString(), arr[0].toString());
+        scan.close();
     }
 
     public static Object[] countTimes(int num) {

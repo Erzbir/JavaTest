@@ -1,10 +1,6 @@
 package practise;
 
-import java.util.Scanner;
-
 public class PrintPatten {
-    public static Scanner input = new Scanner(System.in);
-
     public static void printSpace(int floor, int i) {
         for (int j = 0; j < floor - i; j++) {
             System.out.print(" ");

@@ -8,6 +8,7 @@ public class Demo34 {
         System.out.print("输入一个十进制数:");
         int dec = scan.nextInt();
         System.out.println(decToHex(dec));
+        scan.close();
     }
 
     public static String decToHex(int dec) {
