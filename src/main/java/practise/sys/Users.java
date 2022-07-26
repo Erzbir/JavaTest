@@ -60,11 +60,6 @@ public class Users implements UserInter {
         return str1 == null || str2 == null;
     }
 
-    @Override
-    public Users.User getUser(String account) {
-        return userList.get(account);
-    }
-
     @Getter
     @Setter
     class User {

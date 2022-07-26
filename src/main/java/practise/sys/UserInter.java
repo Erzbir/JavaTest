@@ -10,6 +10,4 @@ public interface UserInter {
 
     boolean checkPassword(String password_1, String password_2);
 
-    Users.User getUser(String account);
-
 }
