@@ -4,141 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStruct/LinkList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStruct/LinkList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataStruct/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Blog$Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/BlogInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Board.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/MenuInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Menu_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/MyInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/MyString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/PrintPatten.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Reply$Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Reply$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Reply.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Temp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_28.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_36.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_38.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_39.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_41.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_42.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_44.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_45.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_46.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_48.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_49.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_50.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_51.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_52.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_53.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_54.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_55.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_56.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_57.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_58.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_59.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_60.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_61.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_62.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_63.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_65.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_66.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_67.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_68.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_69.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_70.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_71.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_72.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_73.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_74.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_75.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_76.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_77.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_78.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_79.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Test_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/UserInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/UserTest$Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/UserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Users$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Blog$Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Blog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/BlogInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/MenuInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/UserInter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Users$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Practise/sys/Users.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo36.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo39.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo41.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo42.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo44.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo45.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/demo33.class" beforeDir="false" />
+    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新依赖包">
+      <change beforePath="$PROJECT_DIR$/.idea/JavaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/annotations-20.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/lombok-1.18.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaTest/lombok-1.18.22.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,19 +37,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.Annotations": "true",
     "Repository.Attach.JavaDocs": "true",
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Demo45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Demo45" />
@@ -202,8 +86,30 @@
       <updated>1658854721437</updated>
       <workItem from="1658854722764" duration="86000" />
       <workItem from="1658854811158" duration="101000" />
-      <workItem from="1658854926047" duration="588000" />
+      <workItem from="1658854926047" duration="1547000" />
     </task>
+    <task id="LOCAL-00001" summary="更新依赖包">
+      <created>1658855605760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658855605760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新依赖包">
+      <created>1658855729290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658855729290</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新依赖包">
+      <created>1658855860463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658855860463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新依赖包" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新依赖包" />
   </component>
 </project>
