@@ -62,7 +62,7 @@ class Blog implements BlogInter {
                 }
                 tempContent.append(temp2);
             }
-
+        scan.close();
         }
     }
 
@@ -80,6 +80,7 @@ class Blog implements BlogInter {
         this.article.publishTime = LocalTime.now();
         articleList.put(title, this.article);
         this.article = null;
+        scan.close();
         return true;
     }
 
