@@ -10,4 +10,6 @@ public interface UserInter {
 
     boolean checkPassword(String password_1, String password_2);
 
+    Object getUser(String account);
+
 }

@@ -43,7 +43,7 @@ public class Main {
                 } else {
                     flag = true;
                     System.out.println("登录成功");
-                    loginUser = user.getUser(account);
+                    loginUser = (Users.User) user.getUser(account);
                 }
             }
             while (flag) {

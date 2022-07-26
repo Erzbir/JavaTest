@@ -56,6 +56,11 @@ public class Users implements UserInter {
         return password_1.length() < 18 && password_1.equals(password_2);
     }
 
+    @Override
+    public User getUser(String account) {
+        return userList.get(account);
+    }
+
     private boolean isElemEmpty(String str1, String str2) {
         return str1 == null || str2 == null;
     }
