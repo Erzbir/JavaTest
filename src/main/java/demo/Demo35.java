@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Demo35 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("输入一个字符串:");
+        System.out.print("Enter a palindrome string");
         String str = scan.nextLine();
         if (isPalindrome(str)) {
-            System.out.println("是回文字符串");
+            System.out.println("This is a palindrome string");
         } else {
-            System.out.println("不是回文字符串");
+            System.out.println("This is not a palindrome string");
         }
         scan.close();
     }

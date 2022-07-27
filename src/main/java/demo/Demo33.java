@@ -2,10 +2,10 @@ package demo;
 
 import java.util.Scanner;
 
-public class demo33 {
+public class Demo33 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("输入两个个数:");
+        System.out.print("Enter tow numbers:");
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         scan.close();

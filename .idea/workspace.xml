@@ -4,11 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新依赖包" />
+    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新依赖包">
+      <change beforePath="$PROJECT_DIR$/.idea/JavaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/demo33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo39.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo44.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo45.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/Demo45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/production/JavaTest/demo/demo33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/production/JavaTest/demo/demo33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/JavaTest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/JavaTest/Test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit3 Test Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,21 +60,32 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "rsyncConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="demo" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Demo45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo45" />
+  <component name="RunManager" selected="Application.User">
+    <configuration name="Demo39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo39" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -57,9 +97,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Demo43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo43" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.User" />
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo42Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.Demo42Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo45Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.Demo45Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo45" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.Demo43" />
+        <item itemvalue="JUnit.Demo42Test" />
+        <item itemvalue="Application.demo.Demo39" />
+        <item itemvalue="JUnit.Demo45Test" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +174,11 @@
       <workItem from="1658854722764" duration="86000" />
       <workItem from="1658854811158" duration="101000" />
       <workItem from="1658854926047" duration="1923000" />
+      <workItem from="1658856873159" duration="58000" />
+      <workItem from="1658856934478" duration="22000" />
+      <workItem from="1658882654834" duration="2349000" />
+      <workItem from="1658885301288" duration="8000" />
+      <workItem from="1658885365577" duration="6758000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -103,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658856715251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新依赖包">
+      <created>1658856897779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658856897779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +235,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新依赖包" />
     <option name="LAST_COMMIT_MESSAGE" value="更新依赖包" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

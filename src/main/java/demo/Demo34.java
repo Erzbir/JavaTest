@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Demo34 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("输入一个十进制数:");
+        System.out.print("Enter a decimal number");
         int dec = scan.nextInt();
         System.out.println(decToHex(dec));
         scan.close();

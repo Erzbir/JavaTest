@@ -8,6 +8,7 @@ public class Demo45 {
         System.out.print("Enter precision:");
         double precision = scan.nextDouble();
         System.out.println(calculatePI(precision));
+        scan.close();
     }
 
     public static double calculatePI(double precision) {
@@ -19,4 +20,5 @@ public class Demo45 {
         }
         return 4.0 * n;
     }
+
 }

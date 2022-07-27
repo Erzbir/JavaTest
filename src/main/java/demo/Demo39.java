@@ -2,6 +2,10 @@ package demo;
 
 public class Demo39 {
     public static void main(String[] args) {
+       printDivided();
+    }
+
+    public static void printDivided() {
         for (int i = 100, j = 0; i < 1000; i++) {
             if (canDivided(i)) {
                 System.out.print(i + "\t");
