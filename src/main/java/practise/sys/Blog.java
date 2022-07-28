@@ -62,7 +62,7 @@ class Blog implements BlogInter {
                 }
                 tempContent.append(temp2);
             }
-        scan.close();
+            scan.close();
         }
     }
 

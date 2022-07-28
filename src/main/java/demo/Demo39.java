@@ -6,7 +6,7 @@ public class Demo39 {
     }
 
     public static void printNum() {
-        int  count = 0;
+        int count = 0;
         for (int i = 2; i <= 1000; i++) {
             if (isPrimeNum(i)) {
                 count++;

@@ -39,12 +39,12 @@ public class Demo42 {
 
     public static void printPatten_3(int n) {
         for (int i = 1; i < n; i++) {
-           int a = i;
+            int a = i;
             printSpace(n, i);
             for (int j = 0; j < i; j++) {
-               System.out.print(a-- + "\t");
-           }
-           System.out.println();
+                System.out.print(a-- + "\t");
+            }
+            System.out.println();
         }
     }
 
@@ -58,6 +58,7 @@ public class Demo42 {
             System.out.println();
         }
     }
+
     public static void printSpace(int n, int i) {
         for (int j = 0; j < n - i - 1; j++) {
             System.out.print("\t");

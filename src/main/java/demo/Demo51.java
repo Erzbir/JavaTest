@@ -14,6 +14,7 @@ class Demo51 {
             arr.add(temp);
         }
         System.out.println(max(arr));
+        scan.close();
     }
 
     public static int max(ArrayList<Integer> arr) {

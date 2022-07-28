@@ -4,20 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新demo, 添加测试依赖">
-      <change beforePath="$PROJECT_DIR$/.idea/JavaTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="更新demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo38.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo42.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo47.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo51.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo57.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo68.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo68.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo71.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo72.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practise/Test_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practise/Test_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practise/sys/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practise/sys/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo0.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo38.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo42.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/practise/Test_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practise/Test_4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,27 +66,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;rsyncConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -76,9 +99,9 @@
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo51">
-    <configuration name="Demo47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo47" />
+  <component name="RunManager" selected="Application.Demo72">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo48" />
+    <configuration name="Demo68" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo68" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo49" />
+    <configuration name="Demo69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo69" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo50" />
+    <configuration name="Demo71" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo71" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo51" />
+    <configuration name="Demo72" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo72" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo51" />
-        <item itemvalue="Application.Demo50" />
-        <item itemvalue="Application.Demo49" />
-        <item itemvalue="Application.Demo48" />
-        <item itemvalue="Application.Demo47" />
+        <item itemvalue="Application.Demo72" />
+        <item itemvalue="Application.Demo71" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo69" />
+        <item itemvalue="Application.Demo68" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +192,7 @@
       <workItem from="1658885301288" duration="8000" />
       <workItem from="1658885365577" duration="11105000" />
       <workItem from="1658903767420" duration="9441000" />
-      <workItem from="1658986658411" duration="6285000" />
+      <workItem from="1658986658411" duration="25430000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -213,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658893863421</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="更新demo">
+      <created>1658993792216</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658993792216</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +263,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新依赖包" />
     <MESSAGE value="更新demo, 添加测试依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新demo, 添加测试依赖" />
+    <MESSAGE value="更新demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -249,8 +280,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo51.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo72.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo66.java</url>
+          <line>17</line>
+          <properties class="demo.Demo66" method="reverse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

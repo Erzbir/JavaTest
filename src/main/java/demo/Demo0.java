@@ -1,8 +1,12 @@
 package demo;
 
-class Demo0 implements Cloneable{
+class Demo0 implements Cloneable {
 
     User user;
+
+    public Demo0(User user) {
+        this.user = user;
+    }
 
     public static void main(String[] args) throws CloneNotSupportedException {
         User user = new User();
@@ -17,10 +21,6 @@ class Demo0 implements Cloneable{
         System.out.println(test.user == test3.user);
     }
 
-    public Demo0(User user) {
-        this.user = user;
-    }
-
     @Override
     public Object clone() throws CloneNotSupportedException {
         this.user = (User) this.user.clone();
@@ -29,7 +29,7 @@ class Demo0 implements Cloneable{
     }
 }
 
-class User implements Cloneable{
+class User implements Cloneable {
 
     @Override
     public Object clone() throws CloneNotSupportedException {

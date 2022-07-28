@@ -5,6 +5,7 @@ class Demo38 {
     public static void main(String[] args) {
         printNum();
     }
+
     public static void printNum() {
         int count = 0;
         for (int i = 100; i <= 1000; i++) {

@@ -16,17 +16,13 @@ class Demo48 {
             int selection2 = (int) (Math.random() * 3);
             if (selection == selection2) {
                 System.out.println("draw");
-            }
-            else if (selection == 2 && selection2 == 1) {
+            } else if (selection == 2 && selection2 == 1) {
                 System.out.println("you lose");
-            }
-            else if (selection == 0 && selection2 == 2) {
+            } else if (selection == 0 && selection2 == 2) {
                 System.out.println("you lose");
-            }
-            else if (selection == 1 && selection2 == 2) {
+            } else if (selection == 1 && selection2 == 2) {
                 System.out.println("you lose");
-            }
-            else {
+            } else {
                 System.out.println("you win");
                 count++;
             }

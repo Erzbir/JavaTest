@@ -20,6 +20,6 @@ class Demo47 {
                 sum += i;
             }
         }
-        return sum ==  n;
+        return sum == n;
     }
 }
