@@ -2,53 +2,56 @@ package dataStruct;
 
 import java.util.Arrays;
 
-public class Stack {
+public class Queue {
     private final static int expendSize = 5;
     private Object[] data;
-    private int top;
+    private int rear;
+    private int head;
     private int capacity = 5;
 
-    public Stack(int capacity) {
+    public Queue(int capacity) {
         if (capacity > 0) {
-            this.top = 0;
+            this.rear = 0;
+            this.head = 0;
             this.capacity = capacity;
             this.data = new Object[capacity];
         }
     }
 
-    public Stack() {
+    public Queue() {
         this.data = new Object[this.capacity];
     }
 
     public static void main(String[] args) {
-        Stack stack_1 = new Stack(5);
-        stack_1.push(1);
-        stack_1.push(2);
-        stack_1.push(3);
-        stack_1.push(4);
-        stack_1.push(5);
-        stack_1.push(2);
-        System.out.println("栈顶元素:" + stack_1.peek());
-        System.out.println("是否为空:" + stack_1.isEmpty());
-        System.out.println("栈的大小:" + stack_1.size());
-        System.out.println("栈的信息:" + stack_1);
-        System.out.println("出栈元素:" + stack_1.pop());
-        stack_1.clear();
+        Queue queue = new Queue(5);
+        queue.push(1);
+        queue.push(2);
+        queue.push(3);
+        queue.push(4);
+        queue.push(5);
+        queue.push(2);
+        System.out.println("队首元素:" + queue.peek());
+        System.out.println("是否为空:" + queue.isEmpty());
+        System.out.println("队的长度:" + queue.size());
+        System.out.println("队的信息:" + queue);
+        System.out.println("出队元素:" + queue.pop());
+        System.out.println("队的信息:" + queue);
+        queue.clear();
     }
 
     public void push(int e) {
-        if (this.top == this.capacity - 1) {
+        if (this.rear == this.head) {
             resize();
         }
-        this.data[top++] = e;
+        this.data[rear++] = e;
     }
 
     public Object pop() {
         if (this.isEmpty()) {
-            throw new RuntimeException("栈已为空, 不可出栈");
+            throw new RuntimeException("队已为空, 不可出队");
         }
-        Object result = this.data[this.top - 1];
-        this.data[--this.top] = 0;
+        Object result = this.data[this.head];
+        this.data[this.head++] = 0;
         return result;
     }
 
@@ -56,7 +59,7 @@ public class Stack {
         if (this.isEmpty()) {
             return -Integer.MAX_VALUE;
         }
-        return this.data[this.top - 1];
+        return this.data[this.head];
     }
 
     public void resize() {
@@ -66,17 +69,18 @@ public class Stack {
     }
 
     public boolean isEmpty() {
-        return this.top == 0 || this.capacity == 0;
+        return this.rear == 0 || this.capacity == 0;
     }
 
     public void clear() {
         this.data = null;
-        this.top = 0;
+        this.rear = 0;
+        this.head = 0;
         this.capacity = 0;
     }
 
     public int size() {
-        return this.top;
+        return this.rear - this.head;
     }
 
     @Override
@@ -84,7 +88,7 @@ public class Stack {
         if (objects == this) {
             return true;
         }
-        Stack temp = (Stack) objects;
+        Queue temp = (Queue) objects;
         if (this.size() != temp.size()) {
             return false;
         }
@@ -93,6 +97,6 @@ public class Stack {
 
     @Override
     public String toString() {
-        return !this.isEmpty() ? "栈中数据:" + Arrays.toString(Arrays.copyOf(this.data, top)) + "  栈的大小:" + this.size() : null;
+        return !this.isEmpty() ? "队中数据:" + Arrays.toString(Arrays.copyOfRange(this.data, head, rear)) + "  队的大小:" + this.size() : null;
     }
 }

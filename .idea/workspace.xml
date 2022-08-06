@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="add demo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStruct/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStruct/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo85.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo85.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo86.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo86.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo87.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo87.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo89.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo89.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo90.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo91.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo91.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStruct/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStruct/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStruct/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStruct/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/LinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/LinkList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +29,13 @@
       <list>
         <option value="JUnit3 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,7 +63,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -68,12 +75,13 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dataStruct" />
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo91">
-    <configuration name="Demo87" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo87" />
+  <component name="RunManager" selected="应用程序.Demo94">
+    <configuration name="Demo94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo94" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo88" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo88" />
+    <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStruct.LinkList" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="dataStruct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo89" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo89" />
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStruct.Queue" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="dataStruct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo90" />
+    <configuration name="dataStruct.Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStruct.Stack" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="dataStruct.Stack" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,30 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo91" />
+    <configuration name="LinkListTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="dataStruct.Stack" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="dataStruct" />
+      <option name="MAIN_CLASS_NAME" value="dataStruct.LinkListTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo91" />
-        <item itemvalue="Application.Demo90" />
-        <item itemvalue="Application.Demo89" />
-        <item itemvalue="Application.Demo88" />
-        <item itemvalue="Application.Demo87" />
+        <item itemvalue="应用程序.Demo94" />
+        <item itemvalue="应用程序.LinkList" />
+        <item itemvalue="应用程序.Queue" />
+        <item itemvalue="JUnit.LinkListTest.main" />
+        <item itemvalue="应用程序.dataStruct.Stack" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="" />
@@ -167,6 +178,11 @@
       <workItem from="1658986658411" duration="26613000" />
       <workItem from="1659074767932" duration="13983000" />
       <workItem from="1659158330948" duration="15779000" />
+      <workItem from="1659436106171" duration="4161000" />
+      <workItem from="1659507221798" duration="5258000" />
+      <workItem from="1659535114388" duration="5806000" />
+      <workItem from="1659581151307" duration="11534000" />
+      <workItem from="1659748440825" duration="10168000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -271,6 +287,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo89.java</url>
           <line>31</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dataStruct/Stack.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

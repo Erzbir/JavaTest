@@ -3,34 +3,46 @@ package dataStruct;
 public class LinkList {
     private Node head = null;
 
+    private Node rear = null;
+
     public LinkList() {
 
     }
 
     public static void main(String[] args) {
-        LinkList linkList = new LinkList();
-        linkList.insert(1);
-        linkList.insert(2);
-        System.out.println("链表的长度是:" + linkList.length());
-        System.out.println("链表当前的元素:" + linkList);
-        linkList.delete(1);
-        System.out.println("删除后的链表元素:" + linkList);
+        LinkList list = new LinkList();
+        list.add(1);
+        list.add(2);
+        System.out.println("链表的长度是:" + list.length());
+        System.out.println("链表当前的元素:" + list);
+        list.delete(1);
+        System.out.println("删除后的链表元素:" + list);
     }
 
-    public void insert(Object data) {
+    // append方法
+    public void add(Object data) {
         Node newNode = new Node(data);
         if (this.head == null) {
             this.head = newNode;
+            rear = newNode;
             return;
         }
-        Node temp = this.head;
-        while (temp.next != null) {
+        rear.next = newNode;
+        rear = newNode;
+    }
+
+    // 在index元素后插入
+    public void insert(Object data, int index) {
+        Node temp = head;
+        Node newNode = new Node(data);
+        for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
-
+        newNode.next = temp.next;
         temp.next = newNode;
     }
 
+    // 删除方法
     public boolean delete(int index) {
         if (this.head == null && index < 0) {
             return false;
@@ -47,6 +59,7 @@ public class LinkList {
         return true;
     }
 
+    //获取长度
     public int length() {
         Node temp = this.head;
         int length = 0;
@@ -68,7 +81,8 @@ public class LinkList {
         return result.toString();
     }
 
-    private static class Node {
+    // 节点定义成一个内部类
+    private class Node {
         Object data = null;
         Node next = null;
 
