@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="add demo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStruct/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStruct/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStruct/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStruct/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStruct/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStruct/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo94.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/LinkList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/LinkList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/ArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/Queue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +76,7 @@
       <recent name="demo" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Demo94">
+  <component name="RunManager" selected="应用程序.Demo98">
     <configuration name="Demo94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demo.Demo94" />
       <module name="JavaTest" />
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStruct.LinkList" />
+    <configuration name="Demo95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo95" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStruct.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStruct.Queue" />
+    <configuration name="Demo96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo96" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStruct.*" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dataStruct.Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStruct.Stack" />
+    <configuration name="Demo97" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo97" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStruct.Stack" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,29 +129,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkListTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo98" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo98" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStruct.Stack" />
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dataStruct" />
-      <option name="MAIN_CLASS_NAME" value="dataStruct.LinkListTest" />
-      <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Demo98" />
+        <item itemvalue="应用程序.Demo97" />
+        <item itemvalue="应用程序.Demo96" />
+        <item itemvalue="应用程序.Demo95" />
         <item itemvalue="应用程序.Demo94" />
-        <item itemvalue="应用程序.LinkList" />
-        <item itemvalue="应用程序.Queue" />
-        <item itemvalue="JUnit.LinkListTest.main" />
-        <item itemvalue="应用程序.dataStruct.Stack" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +187,10 @@
       <workItem from="1659507221798" duration="5258000" />
       <workItem from="1659535114388" duration="5806000" />
       <workItem from="1659581151307" duration="11534000" />
-      <workItem from="1659748440825" duration="10168000" />
+      <workItem from="1659748440825" duration="10573000" />
+      <workItem from="1659836139381" duration="8283000" />
+      <workItem from="1659856132057" duration="3857000" />
+      <workItem from="1659961807301" duration="11780000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -247,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659089882910</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add demo">
+      <created>1659799600313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659799600313</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,13 +305,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo1.java</url>
-          <line>14</line>
+          <line>10</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dataStruct/Stack.java</url>
           <line>4</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo96.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo97.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo98.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
