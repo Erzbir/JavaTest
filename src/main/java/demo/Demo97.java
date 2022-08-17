@@ -1,7 +1,6 @@
 package demo;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.math.BigDecimal;
 import java.util.Scanner;
 
 class Demo97 {
@@ -12,6 +11,7 @@ class Demo97 {
         revers(matrix, scan.nextInt());
         display(matrix);
         scan.close();
+        BigDecimal a = new BigDecimal(0);
     }
 
     public static void display(int[][] matrix) {

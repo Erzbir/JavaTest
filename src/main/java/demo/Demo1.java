@@ -1,22 +1,24 @@
 package demo;
 
+import java.util.Scanner;
+
 class Demo1 {
-    int a;
-    double b;
-    char c;
-    String d;
-
-    public static void main(String[] args) {
-        int x = 1000;
-        Integer a = 1000;
-        Integer b = Integer.valueOf(1000);
-        Integer c = Integer.valueOf(1000).intValue();
-        Integer d = Integer.parseInt("1000");
-        System.out.println(d == x);
+    public static void main(String[] argv) {
+        double a;
+        double b;
+        double c;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("enter the first side: ");
+        a = scan.nextDouble();
+        System.out.print("enter the second side: ");
+        b = scan.nextDouble();
+        System.out.print("enter the lase side: ");
+        c = scan.nextDouble();
+        double p = (a + b + c) / 2;
+        double S;
+        S = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+        System.out.printf("三角形面积: %f", S);
+        scan.close();
     }
 
-    @Override
-    public String toString() {
-        return a + " " + b + " " + c + " " + d;
-    }
 }

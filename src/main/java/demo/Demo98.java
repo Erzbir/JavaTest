@@ -18,15 +18,14 @@ class Demo98 {
 
     public static boolean isConsecutive(int[][] values) {
         int count = 0;
-        for (int i = 0; i < values.length; i++) {
-            for (int j = 0; j < values[i].length - 1; j++) {
-                if (values[i][j] == values[i][j + 1]) {
+        for (int[] value : values) {
+            for (int j = 0; j < value.length - 1; j++) {
+                if (value[j] == value[j + 1]) {
                     ++count;
                     if (count == 3) {
                         return true;
                     }
-                }
-                else {
+                } else {
                     count = 0;
                 }
             }
@@ -38,31 +37,28 @@ class Demo98 {
                     if (count == 3) {
                         return true;
                     }
-                }
-                else {
+                } else {
                     count = 0;
                 }
             }
         }
-        for (int j = 0, i = 0; j < values[i].length - 1 && i < values.length - 1;) {
+        for (int j = 0, i = 0; j < values[i].length - 1 && i < values.length - 1; ) {
             if (values[i][j] == values[++i][j++]) {
                 count++;
                 if (count == 3) {
                     return true;
                 }
-            }
-            else {
+            } else {
                 count = 0;
             }
         }
-        for (int j = values.length - 1, i = 0; j > 0;) {
+        for (int j = values.length - 1, i = 0; j > 0; ) {
             if (i < values.length - 1 && values[i][j] == values[++i][--j]) {
                 count++;
                 if (count == 3) {
                     return true;
                 }
-            }
-            else {
+            } else {
                 count = 0;
             }
         }

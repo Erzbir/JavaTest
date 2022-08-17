@@ -5,16 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="add demo">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo104.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo95.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataStruct/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo99.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataStruct/LinkListTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +44,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/File.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractCollection.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Collections.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -45,7 +64,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -56,8 +75,9 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
@@ -72,13 +92,13 @@
       <recent name="junit.framework.TestCase" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="dataStruct" />
       <recent name="demo" />
+      <recent name="dataStruct" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Demo98">
-    <configuration name="Demo94" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo94" />
+  <component name="RunManager" selected="Application.Demo104">
+    <configuration name="Demo100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo100" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo95" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo95" />
+    <configuration name="Demo101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo101" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo96" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo96" />
+    <configuration name="Demo102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo102" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo97" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo97" />
+    <configuration name="Demo103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo103" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo98" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo98" />
+    <configuration name="Demo104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo104" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -138,28 +158,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Demo98" />
-        <item itemvalue="应用程序.Demo97" />
-        <item itemvalue="应用程序.Demo96" />
-        <item itemvalue="应用程序.Demo95" />
-        <item itemvalue="应用程序.Demo94" />
+        <item itemvalue="Application.Demo104" />
+        <item itemvalue="Application.Demo103" />
+        <item itemvalue="Application.Demo101" />
+        <item itemvalue="Application.Demo102" />
+        <item itemvalue="Application.Demo100" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +199,17 @@
       <workItem from="1659748440825" duration="10573000" />
       <workItem from="1659836139381" duration="8283000" />
       <workItem from="1659856132057" duration="3857000" />
-      <workItem from="1659961807301" duration="11780000" />
+      <workItem from="1659961807301" duration="12007000" />
+      <workItem from="1660012803260" duration="10608000" />
+      <workItem from="1660098952433" duration="1988000" />
+      <workItem from="1660110646316" duration="3575000" />
+      <workItem from="1660267189577" duration="2276000" />
+      <workItem from="1660273340296" duration="13530000" />
+      <workItem from="1660354347276" duration="8000" />
+      <workItem from="1660403839648" duration="3871000" />
+      <workItem from="1660529299552" duration="1774000" />
+      <workItem from="1660535003923" duration="21811000" />
+      <workItem from="1660746667668" duration="6433000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -262,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659799600313</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add demo">
+      <created>1659974619127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659974619127</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +319,10 @@
           <properties class="java.lang.AssertionError" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.BindException" package="java.net" />
+          <option name="timeStamp" value="47" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo88.java</url>
           <line>24</line>
@@ -320,13 +350,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo97.java</url>
-          <line>32</line>
+          <line>34</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo98.java</url>
-          <line>46</line>
+          <line>45</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo99.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo99.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo100.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo103.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
