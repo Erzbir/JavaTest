@@ -1,177 +1,113 @@
 package demo;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-class Demo99 {
-    private static String[][] chess;
-    private static int position_x;
-    private static int position_y;
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 14:24
+ */
+//五子棋游戏
+public class Demo99 {
+    public static char[][] board;
+    public static int player = 0;   //通过奇偶性来决定黑白 统计下棋的棋子数
+    public static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        init();
-        display();
-        while (true) {
-            System.out.print("Drop a red disk: ");
-            position_x = scan.nextInt();
-            position_y = scan.nextInt();
-            try {
-                game(true);
-            } catch (Exception e) {
-                System.out.println();
-                e.printStackTrace();
-                continue;
-            }
-            if (isWin()) {
-                System.out.println("player wins");
-                break;
-            }
-            try {
-                AI();
-            } catch (Exception e) {
-                System.out.println();
-                e.printStackTrace();
-            }
-            if (isWin()) {
-                System.out.println("AI wins");
-                break;
-            }
-        }
-        scan.close();
+        //1.初始化棋盘
+        initalBoard();
+        //2.打印棋盘
+        printBoard();
+        //3.开始游戏
+        startGame();
     }
 
-    public static void init() {
-        chess = new String[6][7];
-        for (int i = 0; i < chess.length; i++) {
-            for (int j = 0; j < chess[0].length; j++) {
-                chess[i][j] = "|";
+    private static void startGame() {
+        while (!isGameOver()) {
+            if (player % 2 == 0) {
+                System.out.println(">>>黑方");
+                chessBoard('O');
+            } else {
+                System.out.println(">>>白方");
+                chessBoard('X');
             }
+            player++;
         }
-
+        if (player % 2 == 0) {
+            System.out.println(">>>白方胜!!!");
+        } else {
+            System.out.println(">>>黑方胜!!!");
+        }
+        System.out.println(">>>游戏结束！");
     }
 
-    public static void display() {
-        for (String[] str : chess) {
-            for (String s : str) {
-                System.out.print(s + " \t");
+    private static boolean isGameOver() {
+        for (int r = 0; r < board.length; r++) {
+            for (int c = 0; c < board[r].length; c++) {
+                if (board[r][c] != '+') {
+                    //向右
+                    if (c < 11) {
+                        if (board[r][c] == board[r][c + 1] && board[r][c] == board[r][c + 2] && board[r][c] == board[r][c + 3] && board[r][c] == board[r][c + 4]) {
+                            return true;
+                        }
+                    }
+                    //向下
+                    if (r < 11) {
+                        if (board[r][c] == board[r + 1][c] && board[r][c] == board[r + 2][c] && board[r][c] == board[r + 3][c] && board[r][c] == board[r + 4][c]) {
+                            return true;
+                        }
+                    }
+                    //向右下
+                    if (r < 11 && c < 11) {
+                        if (board[r][c] == board[r + 1][c + 1] && board[r][c] == board[r + 2][c + 2] && board[r][c] == board[r + 3][c + 3] && board[r][c] == board[r + 4][c + 4]) {
+                            return true;
+                        }
+                    }
+                    //向右上
+                    if (r > 3 && c < 11) {
+                        if (board[r][c] == board[r - 1][c + 1] && board[r][c] == board[r - 2][c + 2] && board[r][c] == board[r - 3][c + 3] && board[r][c] == board[r - 4][c + 4]) {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    private static void chessBoard(char chess) {
+        System.out.print(">>>输入下棋的位置:");
+        int x = input.nextInt() - 1;
+        int y = input.nextInt() - 1;
+        if (board[x][y] != '+') {
+            System.out.println(">>>此处已有棋子，请重新下棋!");
+            player--;
+            return;
+        }
+        board[x][y] = chess;
+        printBoard();
+    }
+
+    private static void printBoard() {
+        System.out.print("   ");
+        for (int i = 1; i <= 15; i++) {
+            System.out.printf("%-3d", i);
+        }
+        System.out.println();
+
+        for (int i = 0; i < board.length; i++) {
+            System.out.printf("%-3d", (i + 1));
+            for (int j = 0; j < board[i].length; j++) {
+                System.out.print(board[i][j] + "  ");
             }
             System.out.println();
         }
-        System.out.println("---------------------");
     }
 
-    public static void game(boolean flag) {
-        if (position_x >= chess.length || position_y >= chess[0].length) {
-            throw new RuntimeException("out of range!");
+    private static void initalBoard() {
+        board = new char[15][15];
+        for (char[] chars : board) {
+            Arrays.fill(chars, '+');
         }
-        if (!chess[position_x][position_y].equals("|")) {
-            throw new RuntimeException("there already have a disk!");
-        }
-        chess[position_x][position_y] = flag ? "0" : "1";
-        display();
-    }
-
-    public static void AI() {
-        while (!chess[position_x][position_y].equals("|")) {
-            position_x = (int) (Math.random() * chess.length);
-            position_y = (int) (Math.random() * chess[0].length);
-        }
-        game(false);
-    }
-
-    public static boolean isWin() {
-        int x = position_x;
-        int y = position_y;
-        int count = 0;
-        for (int i = x, j = x; i >= 0 || j < chess.length; ) {
-            if (i >= 0 && chess[i][position_y].equals(chess[position_x][position_y])) {
-                count++;
-            } else if (j < chess.length && chess[j][position_y].equals(chess[position_x][position_y])) {
-                count++;
-            } else {
-                break;
-            }
-            if (count > 3) {
-                return true;
-            }
-            if (i >= 0) {
-                i--;
-            }
-            if (j < chess.length) {
-                j++;
-            }
-        }
-        count = 0;
-        for (int i = y, j = y; i >= 0 || j < chess[0].length; ) {
-            if (i >= 0 && chess[position_x][i].equals(chess[position_x][position_y])) {
-                count++;
-            } else if (j < chess[0].length && chess[position_x][j].equals(chess[position_x][position_y])) {
-                count++;
-            } else {
-                break;
-            }
-            if (count > 3) {
-                return true;
-            }
-            if (i >= 0) {
-                i--;
-            }
-            if (j < chess[0].length) {
-                j++;
-            }
-        }
-        count = 0;
-        for (int i = x, j = y, m = x, n = y; i >= 0 && j >= 0 || m < chess.length && n < chess[0].length; ) {
-            if (i >= 0 && j >= 0 && chess[i][j].equals(chess[position_x][position_y])) {
-                count++;
-            } else if (m < chess.length && n < chess[0].length && chess[m][n].equals(chess[position_x][position_y])) {
-                count++;
-            } else {
-                break;
-            }
-            if (count > 3) {
-                return true;
-            }
-            if (i >= 0) {
-                i--;
-            }
-            if (j >= 0) {
-                j--;
-            }
-            if (m < chess.length) {
-                m++;
-            }
-            if (n < chess[0].length) {
-                n++;
-            }
-        }
-        count = 0;
-        for (int i = x, j = y, m = x, n = y; i < chess.length && j >= 0 || m >= 0 && n < chess[0].length; ) {
-            if (i < chess.length && j >= 0 && chess[i][j].equals(chess[position_x][position_y])) {
-                count++;
-            } else if (m >= 0 && n < chess[0].length && chess[m][n].equals(chess[position_x][position_y])) {
-                count++;
-            } else {
-                break;
-            }
-            if (count > 3) {
-                return true;
-            }
-            if (i < chess.length) {
-                i++;
-            }
-            if (j >= 0) {
-                j--;
-            }
-            if (m >= 0) {
-                m--;
-            }
-            if (n < chess[0].length) {
-                n++;
-            }
-        }
-
-
-        return false;
     }
 }

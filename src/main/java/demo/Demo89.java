@@ -18,7 +18,6 @@ class Demo89 {
         for (int i : merge(list1, list2)) {
             System.out.print(i + "\t");
         }
-        scan.close();
     }
 
     public static int[] merge(int[] list1, int[] list2) {

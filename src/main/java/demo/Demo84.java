@@ -19,7 +19,7 @@ class Demo84 {
         int i = 0;
         int j = 1;
         int count = 1;
-        quickSort(list, 0, list.length - 1);
+        quickSort(list, 0, list.length - 1); // 或者 Arrays.sort(list), 在这里写只是为了让你知道有这种排序
         while (j < list.length) {
             if (list[i] != list[j]) {
                 list[++i] = list[j];

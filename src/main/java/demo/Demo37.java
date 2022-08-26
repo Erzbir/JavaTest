@@ -4,40 +4,31 @@ import java.util.Scanner;
 
 public class Demo37 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        String temp = scan.nextLine();
-        String[] temp2 = temp.split(" ");
-        int[] temp3 = new int[temp2.length];
-        for (int i = 0; i < temp3.length; i++) {
-            temp3[i] = Integer.parseInt(temp2[i]);
-        }
-        double[] arr = count(temp3);
-        assert arr != null;
-        System.out.println("The number of positives is " + arr[0]);
-        System.out.println("The number of negative is " + arr[1]);
-        System.out.println("The number of total is " + arr[2]);
-        System.out.println("The number of positives is " + arr[3]);
-        scan.close();
-    }
-
-    public static double[] count(int... num) {
-        if (num.length <= 0) {
-            return null;
-        }
-        int sum = 0;
-        int positive = 0;
-        int negative = 0;
-        int length = num.length;
-        for (int j : num) {
-            sum += j;
-            if (j > 0) {
-                positive++;
-            } else if (j < 0) {
-                negative++;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter an integer, the input ends if it is 0:");
+        int positives = 0;
+        int negatives = 0;
+        double total = 0;
+        while (true) {
+            int num = input.nextInt();
+            if (num == 0) {
+                break;
+            } else if (num > 0) {
+                positives++;
             } else {
-                length--;
+                negatives++;
             }
+            total += num;
         }
-        return new double[]{positive, negative, sum, (double) sum / length};
+        int count = positives + negatives;
+        if (count == 0) {
+            System.out.println("No numbers are entered except 0");
+            return;
+        }
+        double average = total / (count);
+        System.out.println("The number of positives is " + positives);
+        System.out.println("The number of negatives is " + negatives);
+        System.out.println("The total is " + total);
+        System.out.println("The average is " + average);
     }
 }

@@ -10,7 +10,6 @@ class Demo85 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scan.nextInt();
         }
-        scan.close();
         if (isSorted(arr)) {
             System.out.println("The list is sorted");
         } else {

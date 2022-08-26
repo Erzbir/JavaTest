@@ -14,7 +14,6 @@ public class Demo42 {
         printPatten_3(n);
         System.out.println();
         printPatten_4(n);
-        scan.close();
     }
 
     public static void printPatten_1(int n) {

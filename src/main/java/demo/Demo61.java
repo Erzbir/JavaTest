@@ -7,7 +7,6 @@ class Demo61 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the 12 digits:");
         String s = scan.next();
-        scan.close();
         System.out.println("ISBN-13 is: " + creatISBN(s));
     }
 

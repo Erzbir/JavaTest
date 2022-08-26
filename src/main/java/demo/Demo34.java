@@ -8,7 +8,6 @@ public class Demo34 {
         System.out.print("Enter a decimal number");
         int dec = scan.nextInt();
         System.out.println(decToHex(dec));
-        scan.close();
     }
 
     public static String decToHex(int dec) {

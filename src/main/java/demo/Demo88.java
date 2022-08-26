@@ -11,7 +11,6 @@ class Demo88 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scan.nextInt();
         }
-        scan.close();
         if (isConsecutiveFour(arr)) {
             System.out.println("The list has consecutive fours");
         } else {

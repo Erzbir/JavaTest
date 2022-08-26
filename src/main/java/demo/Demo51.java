@@ -1,32 +1,30 @@
 package demo;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-class Demo51 {
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 8:35
+ */
+public class Demo51 {
     public static void main(String[] args) {
-        System.out.print("Enter a int array:");
-        Scanner scan = new Scanner(System.in);
-        ArrayList<Integer> arr = new ArrayList<>();
-        int temp = 1;
-        while (temp != 0) {
-            temp = scan.nextInt();
-            arr.add(temp);
-        }
-        System.out.println(max(arr));
-        scan.close();
-    }
-
-    public static int max(ArrayList<Integer> arr) {
-        int max = arr.get(0);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter numbers:");
+        int max = 0;
         int count = 0;
-        for (int j : arr) {
-            count++;
-            if (max < j) {
-                count = 0;
-                max = j;
+        while (true) {
+            int num = input.nextInt();
+            if (num == 0) {
+                break;
+            }
+            if (num > max) {
+                max = num;
+                count = 1;
+            } else if (num == max) {
+                count++;
             }
         }
-        return max;
+        System.out.println("The largest number is " + max);
+        System.out.println("The occurrence count of the largest number is " + count);
     }
 }

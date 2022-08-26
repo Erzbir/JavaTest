@@ -10,7 +10,6 @@ class Demo52 {
         double a = scan.nextDouble();
         double b = scan.nextDouble();
         double c = scan.nextDouble();
-        scan.close();
         System.out.println(Arrays.toString(calculate(a, b, c)));
     }
 

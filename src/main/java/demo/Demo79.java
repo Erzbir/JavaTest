@@ -1,31 +1,25 @@
 package demo;
 
-import java.util.Scanner;
-
-class Demo79 {
-    static long count;
-
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 13:40
+ */
+public class Demo79 {
     public static void main(String[] args) {
-        System.out.print("Enter the number:");
-        Scanner scan = new Scanner(System.in);
-        hanoi(scan.nextInt(), 'A', 'B', 'C');
-        System.out.println("Move " + count + " times");
-        scan.close();
+        String start = "A";
+        String mid = "B";
+        String end = "C";
+        int level = 3;
+        hanoi(level, start, mid, end);
     }
 
-    public static void hanoi(int n, char a, char b, char c) {
-        if (n == 1) {
-            move(a, c);
+    private static void hanoi(int level, String start, String mid, String end) {
+        if (level == 1) {
+            System.out.println(start + "->" + end);
         } else {
-            hanoi(n - 1, a, c, b);
-            move(a, c);
-            hanoi(n - 1, b, a, c);
+            hanoi(level - 1, start, end, mid);
+            System.out.println(start + "->" + end);
+            hanoi(level - 1, mid, start, end);
         }
     }
-
-    public static void move(char a, char b) {
-        count++;
-        System.out.println(a + " -> " + b);
-    }
-
 }

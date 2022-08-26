@@ -7,7 +7,6 @@ class Demo78 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the floor:");
         System.out.println(fibonacci(scan.nextInt()));
-        scan.close();
     }
 
     public static int fibonacci(int n) {

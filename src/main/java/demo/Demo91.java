@@ -15,7 +15,6 @@ class Demo91 {
         for (int i = 0; i < matrix[0].length; i++) {
             System.out.println("Sum of the elements at column " + i + " is " + sumColumn(matrix, i));
         }
-        scan.close();
     }
 
     public static double sumColumn(double[][] m, int columnIndex) {

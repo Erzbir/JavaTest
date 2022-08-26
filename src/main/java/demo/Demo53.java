@@ -3,7 +3,7 @@ package demo;
 import java.util.Scanner;
 
 class Demo53 {
-    private static int[][] arr = {
+    private static final int[][] arr = {
             {1, 3, 5, 7, 9, 11, 13, 15, 17,
                     19, 21, 23, 25, 27, 29, 31},
             {2, 3, 6, 7, 10, 11, 14, 15,
@@ -39,7 +39,6 @@ class Demo53 {
                 day += Math.pow(2, i);
             }
         }
-        scan.close();
         return day;
     }
 }

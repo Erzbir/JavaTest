@@ -1,39 +1,19 @@
 package demo;
 
-import java.util.Scanner;
-
+/**
+ * @Author:HENG
+ * @Date:2022/7/1 17:14
+ */
 public class Demo41 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the number of lines:");
-        int n = scan.nextInt();
-        printPatten(n);
-        scan.close();
-    }
-
-    public static void printPatten(int n) {
-        printNum(n);
-    }
-
-    public static void printNum(int n) {
-        for (int i = 1; i <= n; i++) {
-            int a = 2;
-            int b = i;
-            printSpace(n, i);
-            for (int m = i; m < 2 * i - 1; m++) {
-                System.out.print(b-- + "\t");
+        for (int i = 1; i <= 7; i++) {
+            for (int k = 1; k <= 7 - i; k++) {
+                System.out.print("  ");
             }
-            System.out.print("1\t");
-            for (int j = i; j < 2 * i - 1; j++) {
-                System.out.print(a++ + "\t");
+            for (int j = 1 - i; j <= i - 1; j++) {
+                System.out.print(Math.abs(j) + 1 + " ");
             }
             System.out.println();
-        }
-    }
-
-    public static void printSpace(int n, int i) {
-        for (int j = 0; j < n - i; j++) {
-            System.out.print("\t");
         }
     }
 }

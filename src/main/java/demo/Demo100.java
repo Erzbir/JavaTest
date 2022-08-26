@@ -22,11 +22,11 @@ public class Demo100 {
         }
         for (int i = 0; i < m[0].length; i++) {
             double sum = 0;
-            for (int j = 0; j < m.length; j++) {
-                if (m[j][i] <= 0) {
+            for (double[] doubles : m) {
+                if (doubles[i] <= 0) {
                     return false;
                 }
-                sum += m[j][i];
+                sum += doubles[i];
             }
             if (sum != 1) {
                 return false;

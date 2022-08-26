@@ -2,27 +2,40 @@ package demo;
 
 import java.util.Scanner;
 
-class Demo59 {
+public class Demo59 {
+
     public static void main(String[] args) {
-        System.out.print("Enter a number:");
-        Scanner scan = new Scanner(System.in);
-        String num = scan.next();
-        scan.close();
-        if (checkValid(num)) {
-            System.out.println(num + " is valid");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter string s1:");
+        String s1 = scanner.nextLine();
+        System.out.print("Enter string s2:");
+        String s2 = scanner.nextLine();
+        if (contains(s1,s2)) {
+            System.out.println(s2 + " is a substring of " + s1);
         } else {
-            System.out.println(num + " is invalid");
+            System.out.println(s2 + " is not a substring of " + s1);
         }
     }
-
-    public static boolean checkValid(String num) {
-        int[] check = {3, 2, 4};
-        String[] arr = num.split("-");
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i].length() != check[i]) {
-                return false;
+    public static boolean contains(String s1, String s2) {
+        for(int k = 0; k <= s1.length() - s2.length(); k++){
+            if(s1.charAt(k) == s2.charAt(0)) {
+                int i = k + 1;
+                int j =1;
+                boolean flag = true;
+                while(j < s2.length()) {
+                    if(s1.charAt(i) == s2.charAt(j)) {
+                        i++;
+                        j++;
+                    }else{
+                        flag = false;
+                        break;
+                    }
+                }
+                if(flag) {
+                    return true;
+                }
             }
         }
-        return true;
+        return false;
     }
 }

@@ -22,6 +22,7 @@ class Demo66 {
             reverseNum += number % 10 * Math.pow(10, length--);
             number /= 10;
         }
+        System.out.println(reverseNum);
         return reverseNum;
     }
 

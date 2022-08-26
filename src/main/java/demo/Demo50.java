@@ -7,7 +7,6 @@ class Demo50 {
         System.out.print("Enter a decimal number:");
         Scanner scan = new Scanner(System.in);
         System.out.println(decimalToOctal(scan.nextInt()));
-        scan.close();
     }
 
     public static int decimalToOctal(int n) {

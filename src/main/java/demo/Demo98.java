@@ -73,6 +73,5 @@ class Demo98 {
                 matrix[i][j] = scan_2.nextInt();
             }
         }
-        scan_2.close();
     }
 }

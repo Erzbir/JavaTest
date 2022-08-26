@@ -1,32 +1,29 @@
 package demo;
 
-import java.util.Scanner;
-
-class Demo83 {
+public class Demo83 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter five integer:");
-        int[] arr = new int[5];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = scan.nextInt();
-        }
-        System.out.println(gcd(arr));
-        scan.close();
+        System.out.println(gcd(16, 24, 32, 40, 48));
     }
 
     public static int gcd(int... numbers) {
-        int result = 0;
         int min = numbers[0];
-        for (int i = 1; i < numbers.length; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] < min) {
                 min = numbers[i];
             }
         }
-        for (int number : numbers) {
-            if (number % min != 0) {
-                return -1;
+        for (int k = min; k >= 1; k--) {
+            boolean flag = true;
+            for (int i = 0; i < numbers.length; i++) {
+                if (numbers[i] % k != 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                return k;
             }
         }
-        return min;
+        return 1;
     }
 }

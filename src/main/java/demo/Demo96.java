@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 class Demo96 {
     public static void main(String[] args) {
-        double[][] matrix =  new double[4][4];
+        double[][] matrix = new double[4][4];
         randomInput(matrix);
         System.out.println(Arrays.deepToString(matrix));
     }
@@ -18,6 +18,6 @@ class Demo96 {
     }
 
     public static int getRandomInt() {
-        return (int)Math.round(Math.random());
+        return (int) Math.round(Math.random());
     }
 }

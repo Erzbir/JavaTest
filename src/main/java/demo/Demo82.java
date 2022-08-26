@@ -11,7 +11,6 @@ class Demo82 {
             arr[i] = scan.nextDouble();
         }
         System.out.println(average(arr));
-        scan.close();
     }
 
     public static int average(int[] array) {

@@ -9,7 +9,6 @@ class Demo90 {
             guess();
             System.out.print("Do you want to guss another word? Enter y or n:");
         } while (!scan.next().equals("n"));
-        scan.close();
     }
 
     public static void guess() {
@@ -53,7 +52,6 @@ class Demo90 {
     public static String chooseWord() {
         String[] words = {"write", "apple", "that", "program", "stream"};
         int index = (int) Math.floor(Math.random() * 5);
-        System.out.println(index);
         return words[index];
     }
 }

@@ -1,33 +1,23 @@
 package demo;
 
+/**
+ * @Author:HENG
+ * @Date:2022/7/1 16:59
+ */
 public class Demo39 {
     public static void main(String[] args) {
-        printNum();
-    }
-
-    public static void printNum() {
+        int num = 100;
         int count = 0;
-        for (int i = 2; i <= 1000; i++) {
-            if (isPrimeNum(i)) {
+        while (num <= 1000) {
+            if (num % 5 == 0 ^ num % 6 == 0) {
+                System.out.print(num + "\t");
                 count++;
-                System.out.print(i + " ");
-                if (count % 8 == 0) {
+                if (count % 10 == 0) {
                     System.out.println();
                 }
             }
+            num++;
         }
-    }
-
-    public static boolean isPrimeNum(int n) {
-        if (n < 2) {
-            return false;
-        }
-        for (int i = 2; i < n / 2 - n % 2; i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
     }
 }
 

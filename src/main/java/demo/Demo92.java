@@ -13,7 +13,6 @@ class Demo92 {
             }
         }
         System.out.println(sumMajorDiagonal(m));
-        scan.close();
     }
 
     public static double sumMajorDiagonal(double[][] m) {

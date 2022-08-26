@@ -1,39 +1,31 @@
 package demo;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-class Demo80 {
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 13:42
+ */
+public class Demo80 {
     public static void main(String[] args) {
-        countNum();
-    }
-
-    public static void countNum() {
-        ArrayList<Integer> arr = new ArrayList<>();
-        int i = 0;
-        Scanner scan = new Scanner(System.in);
+        int[] temp = new int[101];
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter the integers between 1 and 100:");
         while (true) {
-            int temp = scan.nextInt();
-            if (temp == 0) {
+            int num = input.nextInt();
+            if (num == 0) {
                 break;
             }
-            arr.add(temp);
+            temp[num]++;
         }
-        for (i = 0; i < arr.size(); i++) {
-            int count = 1;
-            for (int j = i + 1; j < arr.size(); j++) {
-                if (arr.get(i).equals(arr.get(j))) {
-                    arr.remove(j);
-                    count++;
+        for (int i = 1; i < temp.length; i++) {
+            if (temp[i] > 0) {
+                if (temp[i] > 1) {
+                    System.out.println(i + " occurs " + temp[i] + " times");
+                } else {
+                    System.out.println(i + " occurs " + temp[i] + " time");
                 }
             }
-            String n = "time";
-            if (count > 1) {
-                n = "times";
-            }
-            System.out.println(arr.get(i) + "\toccurs\t" + count + n);
-            scan.close();
         }
     }
 }

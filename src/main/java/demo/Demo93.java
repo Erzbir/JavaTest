@@ -21,7 +21,6 @@ class Demo93 {
             }
         }
         System.out.println(Arrays.deepToString(addMatrix(a, b)));
-        scan.close();
     }
 
     public static double[][] addMatrix(double[][] a, double[][] b) {

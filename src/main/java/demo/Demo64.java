@@ -10,7 +10,6 @@ class Demo64 {
         System.out.print("Enter the second string:");
         String s2 = scan.nextLine();
         System.out.println(theSamePrefix(s1, s2));
-        scan.close();
     }
 
     public static String theSamePrefix(String s1, String s2) {

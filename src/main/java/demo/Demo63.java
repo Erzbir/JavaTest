@@ -7,17 +7,14 @@ class Demo63 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a String:");
         String s = scan.nextLine();
-        System.out.println(countTheUppercase(s));
-        scan.close();
-    }
-
-    public static int countTheUppercase(String s) {
         int count = 0;
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) <= 90 && s.charAt(i) >= 65) {
+            char c = s.charAt(i);
+            if (c <= 90 && c >= 65) {
                 count++;
             }
         }
-        return count;
+        System.out.println(count);
+        scan.close();
     }
 }

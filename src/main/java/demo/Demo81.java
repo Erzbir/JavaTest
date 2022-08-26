@@ -1,38 +1,32 @@
 package demo;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
-class Demo81 {
+public class Demo81 {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(inputNums()));
-    }
-
-    public static Object[] inputNums() {
-        Scanner scan = new Scanner(System.in);
-        int[] arr1 = new int[10];
-        ArrayList<Integer> arr2 = new ArrayList<>();
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter ten numbers:");
-        for (int i = 0; i < 10; i++) {
-            arr1[i] = scan.nextInt();
+        int[] arr = new int[10];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = input.nextInt();
         }
-        for (int i = 0; i < 10; i++) {
-            boolean flag = false;
-            int k = arr1[i];
-            for (int value : arr2) {
-                if (value == k) {
-                    flag = true;
-                    break;
+        int size = 10;
+        for (int i = 0; i < size; i++) {
+            for (int j = i + 1; j < size;) {
+                if (arr[i] == arr[j]) {
+                    for (int k = j + 1; k < size; k++) {
+                        arr[k - 1] = arr[k];
+                    }
+                    size--;
+                } else {
+                    j++;
                 }
             }
-            if (flag) {
-                continue;
-            }
-            arr2.add(k);
-
         }
-        scan.close();
-        return arr2.toArray();
+        System.out.println("The number of distinct number is " + size);
+        System.out.print("The distinct numbers are:");
+        for (int i = 0; i < size; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
 }

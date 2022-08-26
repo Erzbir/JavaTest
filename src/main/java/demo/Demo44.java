@@ -1,19 +1,15 @@
 package demo;
 
-import java.util.Scanner;
-
+/**
+ * @Author:HENG
+ * @Date:2022/7/1 17:44
+ */
 public class Demo44 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println(calculateSum(scan.nextInt()));
-        scan.close();
-    }
-
-    public static double calculateSum(int num) {
         double sum = 0;
-        for (int i = 1; i < 98; i++) {
-            sum = (double) i / (i + 2);
+        for (int i = 1; i <= 97 ; i += 2) {
+            sum += 1.0 * i / (i + 2);
         }
-        return sum;
+        System.out.println(sum);
     }
 }

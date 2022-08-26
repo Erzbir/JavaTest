@@ -2,24 +2,23 @@ package demo;
 
 import java.util.Scanner;
 
-class Demo58 {
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 11:10
+ */
+public class Demo58 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a decimal digital:");
-        displayHexadecimal(scan.nextInt());
-        scan.close();
-    }
-
-    public static void displayHexadecimal(int n) {
-        if (n < 0 || n > 15) {
-            System.out.print(n + " is a invalid input");
-            return;
-        }
-        if (n < 10) {
-            System.out.println(n);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a decimal value(0 to 15):");
+        int num = input.nextInt();
+        if (num > 15 || num < 0) {
+            System.out.println(num + " is an invalid input");
         } else {
-            char s = (char) ('A' + (n - 10));
-            System.out.println(s);
+            if (num <= 9) {
+                System.out.println("The hex value is " + (char)(num - 0 + '0'));
+            } else {
+                System.out.println("The hex value is " + (char) (num - 10 + 'A'));
+            }
         }
     }
 }

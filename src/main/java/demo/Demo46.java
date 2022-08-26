@@ -1,19 +1,17 @@
 package demo;
 
-class Demo46 {
+/**
+ * @Author:HENG
+ * @Date:2022/7/4 8:08
+ */
+public class Demo46 {
     public static void main(String[] args) {
-        System.out.print(calculate());
-    }
-
-    public static double calculate() {
-        double sum = 0;
-        for (int i = 0; i <= 10000; i++) {
-            double divide = 1;
-            for (int j = 1; j <= i; j++) {
-                divide *= j;
-            }
-            sum += 1 / divide;
+        double e = 1;
+        double item = 1;
+        for (int i = 1; i <= 1000; i++) {
+            item *= i;
+            e += 1.0 / item;
         }
-        return sum;
+        System.out.println(e);
     }
 }

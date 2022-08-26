@@ -7,7 +7,6 @@ class Demo54 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter a hexadecimal:");
         String hex = scan.nextLine();
-        scan.close();
         System.out.println(hexadecimalToDecimal(hex));
     }
 

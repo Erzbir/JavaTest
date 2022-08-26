@@ -5,31 +5,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae310dfd-b04c-4386-b54e-44f1de32fadf" name="Changes" comment="add demo">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demo/Demo09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo0.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo100.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo29.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo29.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo32.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo97.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo58.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo60.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo60.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo71.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo71.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo81.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo81.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo82.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo82.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo84.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo85.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo85.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo86.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo86.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo87.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo87.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo89.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo89.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo91.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo91.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo96.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo98.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/demo/Demo99.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/Demo99.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/practise/Test_78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practise/Test_78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dataStruct/LinkListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo39.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo40.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo41.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/Demo43.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demo/Demo43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/practise/Test_78.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practise/Test_78.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,6 +165,16 @@
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/HashMap.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.0.3.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo02.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo07.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo100.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo101.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo102.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo103.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo104.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/demo/Demo99.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/practise/Test_3.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/practise/Test_78.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +189,7 @@
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -77,10 +200,10 @@
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_directory_selection&quot;: &quot;/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/test/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/erzbir/Desktop/IntelliJ Java/JavaTest/src/main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;问题&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -96,9 +219,9 @@
       <recent name="dataStruct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo104">
-    <configuration name="Demo100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo100" />
+  <component name="RunManager" selected="Application.Demo99">
+    <configuration name="Demo79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo79" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo101" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo101" />
+    <configuration name="Demo83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo83" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -123,8 +246,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo102" />
+    <configuration name="Demo86" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo86" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +259,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo103" />
+    <configuration name="Demo90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo90" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +272,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="demo.Demo104" />
+    <configuration name="Demo99" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Demo99" />
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
@@ -164,11 +287,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Demo104" />
-        <item itemvalue="Application.Demo103" />
-        <item itemvalue="Application.Demo101" />
-        <item itemvalue="Application.Demo102" />
-        <item itemvalue="Application.Demo100" />
+        <item itemvalue="Application.Demo99" />
+        <item itemvalue="Application.Demo90" />
+        <item itemvalue="Application.Demo86" />
+        <item itemvalue="Application.Demo83" />
+        <item itemvalue="Application.Demo79" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +332,17 @@
       <workItem from="1660403839648" duration="3871000" />
       <workItem from="1660529299552" duration="1774000" />
       <workItem from="1660535003923" duration="21811000" />
-      <workItem from="1660746667668" duration="6433000" />
+      <workItem from="1660746667668" duration="7742000" />
+      <workItem from="1660789371052" duration="2989000" />
+      <workItem from="1660807610407" duration="2162000" />
+      <workItem from="1660874875004" duration="6565000" />
+      <workItem from="1660888990724" duration="1772000" />
+      <workItem from="1660890846587" duration="32000" />
+      <workItem from="1660890886081" duration="10779000" />
+      <workItem from="1660982727362" duration="10136000" />
+      <workItem from="1661147858549" duration="12993000" />
+      <workItem from="1661483029368" duration="1282000" />
+      <workItem from="1661485490101" duration="6624000" />
     </task>
     <task id="LOCAL-00001" summary="更新依赖包">
       <created>1658855605760</created>
@@ -288,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659974619127</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add demo">
+      <created>1660754674936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660754674936</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,17 +465,17 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo88.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo89.java</url>
-          <line>31</line>
+          <line>30</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo1.java</url>
-          <line>10</line>
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo01.java</url>
+          <line>21</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -350,33 +490,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo97.java</url>
-          <line>34</line>
+          <line>32</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo98.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo99.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo99.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo100.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/demo/Demo103.java</url>
-          <line>11</line>
+          <line>6</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo08.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/demo/Demo08.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

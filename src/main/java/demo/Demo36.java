@@ -2,30 +2,24 @@ package demo;
 
 public class Demo36 {
     public static void main(String[] args) {
-        printPrimeNum();
-    }
-
-    public static void printPrimeNum() {
-        for (int i = 2, j = 0; j < 50; i++) {
-            if (isPrimeNum(i)) {
-                System.out.print(i + "\t");
-                j++;
-                if (j % 10 == 0) {
+        int num = 2;
+        int count = 0;
+        while (count < 50) {
+            boolean flag = true;
+            for (int i = 2; i <= num / 2; i++) {
+                if (num % i == 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) {
+                System.out.print(num + "\t");
+                count++;
+                if (count % 10 == 0) {
                     System.out.println();
                 }
             }
+            num++;
         }
-    }
-
-    public static boolean isPrimeNum(int num) {
-        if (num < 2) {
-            return false;
-        }
-        for (int i = 2; i <= (num >> 1) - num % 2; i++) {
-            if (num % i == 0) {
-                return false;
-            }
-        }
-        return true;
     }
 }

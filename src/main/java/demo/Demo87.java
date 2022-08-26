@@ -20,7 +20,6 @@ class Demo87 {
         } else {
             System.out.println("Tow lists are not strictly identical");
         }
-        scan.close();
     }
 
     public static boolean equals(int[] list1, int[] list2) {
